@@ -14,7 +14,22 @@
         З формою фінансування Державна
     8.Ускладніть програму з другого завдання можливістю фільтрування за будь-яким з наявних значень поля
 """
-
+"""
+ Praca końcowa
+Pod adresem https://registry.edbo.gov.ua/opendata/universities/ 
+znajduje się REJESTR PODMIOTÓW DZIAŁALNOŚCI EDUKACYJNEJ (INSTYTUCJE SZKOLNICTWA WYŻSZEGO, ZAWODOWEGO I SZKOLEŃ ZAWODOWYCH)
+Zadania:
+    1. Poproś użytkownika o kod regionu.
+    2. Pobierz instytucje szkolnictwa wyższego z regionu podanego przez użytkownika.
+    3. Zapisz wszystkie dane do pliku universities.csv w formacie csv.
+    4. Zapisz te same dane do pliku universities_<kod regionu>.csv, na przykład universities_80.csv
+    5. Jeśli region nie znajduje się na liście dostępnych, poinformuj użytkownika o tym w konsoli.
+    6. Przefiltruj i zapisz następujące informacje o instytucjach:
+        Nazwy i nazwiska dyrektorów w pliku rectors.csv
+    7. Skomplikuj program z pierwszego zadania następującym filtrem:
+        Z formą finansowania Państwowa
+    8. Skomplikuj program z drugiego zadania możliwością filtrowania według dowolnej z dostępnych wartości pola.
+"""
 
 import requests
 import csv
